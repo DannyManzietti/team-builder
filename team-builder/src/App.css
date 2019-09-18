@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.member-card {
+  margin: 2% auto;
+  min-width: 200px;
+  min-height: 200px;
+  padding: 1%;
+}
+
+.member-card button {
+  margin-bottom: 4%;
+  background-color: dodgerblue;
+  padding: 3% 20%;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 auto;
+  text-align: left;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.form input {
+  margin-bottom: 7%;
+  padding: 3% 30%;
+}
+
+.form button {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2% 1%;
+  background: dodgerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
